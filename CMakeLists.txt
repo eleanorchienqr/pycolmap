@@ -14,7 +14,8 @@ if(CMAKE_CXX_COMPILER_ID STREQUAL "MSVC")
 endif()
 
 
-find_package(colmap 3.9.1 REQUIRED)
+# find_package(colmap 3.9.1 REQUIRED)
+find_package(colmap 3.8 REQUIRED)
 
 find_package(Python REQUIRED COMPONENTS Interpreter Development.Module)
 
